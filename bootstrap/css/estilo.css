@@ -1,0 +1,737 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+a img, .sidenav ul li a  {
+    border:0px;
+    padding: 0px !important ;
+    vertical-align: middle;
+}
+.sidenav ul li{
+    vertical-align: middle;
+}
+#section0{
+    background-image: url(../../img/fondo-1-movil.jpg);
+    background-size: cover;
+    background-position: center; 
+
+}
+#section1{
+    background-image: url(../../img/fondo-2-movil.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+#section2{
+    background-image: url(../../img/fondo-3-movil.jpg);
+    background-size: cover;
+    background-position: center;  
+    overflow: hidden;
+}
+#section3{
+    background-image: url(../../img/fondo-5-movil.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+#section4{
+    background-image: url(../../img/fondo-5movil.jpg);
+    background-size: cover;
+    background-position: center;    
+}
+
+.section-slide{
+    text-align: center
+}
+#logo{
+  bottom: 0px;
+  position: absolute;
+  margin-left: 50%;
+  left: -156px;
+  display: block;
+  top: 0px;
+  transform: scale(0.8);
+  margin-top: -15px;
+}
+.p-1{
+    margin-left: -128px;
+}
+.mail{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    left: 50%;
+    margin-bottom: 100px;
+    margin-left: -193px;
+    max-width: 500px;
+}
+.insert-mail{
+    height: 32px;
+    border: solid 2px #2c3780;
+    width: 100%;
+    margin-top: 5px;
+    max-width: 325px;
+}
+.envolvente-suscribir{
+    position: absolute;
+    width: 100%;
+    left:0;
+    bottom: 0;
+    margin-bottom: 60px;
+}
+.suscribir{
+    max-width: 482px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input-mail{
+    height: 35px;
+    border: solid 2px #2c3780;
+    background-image: url(../../img/bg-input-movil.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: #FFF;
+    float: right;
+    margin-right: -15px;
+}
+.input-mail:focus{
+    background-image: none;
+}
+
+.btnes{
+    cursor: pointer
+}
+.personajes-1-movil{
+    margin-top: -60px;
+}
+/*   SECCION 2 */
+
+.capa-personajes-2{
+    background: url(../../img/personajes-2-cover.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 1308px;
+    display: block;
+    height: 658px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: scale(0.9);
+}
+
+.header{
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    display: block;
+    margin-top: -10px;
+    z-index: 1;}
+
+.header img{    
+    transform: scale(0.7);
+}
+.separador-general-menu{
+    margin-right: -20px;
+    margin-left: -20px;
+}
+.redes li{
+    vertical-align: middle;
+}
+.redes .list-inline > li{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+.container-menu{
+    margin-right: 0px;
+    margin-left: 0px
+    width:100%;
+}
+.contenedor-menu{
+    padding-top: 25px;
+}
+
+.menu-movil-btn{
+    margin-top: -20px
+}
+
+.menu-movil-interior{
+    margin-top: 50px;
+    overflow-y: hidden;
+}
+
+.menu-desktop{
+    cursor: pointer;
+    display: block;
+}
+.menu-desktop-content{
+    transform: scale(0.8);
+}
+.textos{
+    width: 100%;
+    /*max-width: 414px;*/
+    display: block;
+}
+.textos-2{
+    width: 100%;
+    display: block;
+    max-width: 610px;
+    left: 0px;
+}
+ p {
+    color: #FFF;
+}
+.fondo-textos{
+    background-size: contain;
+    left: 0px;
+    width: 100%; 
+} 
+.texto-1{
+        background: url(../../img/mancha-movil-1.png);
+        background-repeat: no-repeat;
+        background-position: center;
+        width: 100%;
+        max-width: 544px;
+        margin-right: auto;
+        margin-left: auto;
+        background-size: cover;
+        min-height: 165px;
+        padding-top: 18px;
+        /*padding-right: 44px;*/
+        display: table;
+}
+.texto-1 p{
+    max-width: 100%;
+    font-size: 15px;
+    padding: 15px 25px;
+    text-align: center;
+}
+ .texto-2 p{
+        max-width: 257px;
+        /*float: left;*/
+        font-size: 15px;
+        text-align: center;
+        /*margin-left: 7px;*/
+        margin-top: 22px;
+        padding: 16px;
+}
+.texto-2{
+    background: url(../../img/mancha-movil-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    max-width: 610px;
+    display: table;
+}
+.imagen-titulos{
+    transform: scale(0.8);
+    left: 0px;
+    float: left;
+}
+.imagen-titulos-objetivo{
+        margin-right: 112px !important;
+}
+.boton-cambio{
+        bottom: 0px;
+        padding-left: 0px;
+        margin-top: -56px;
+        /*margin-left: 60px;*/
+        /*margin-left: 10px;*/
+}
+.imagen-slide{
+    max-width: 100%;
+}
+.btnes img{
+    transition: all ease 0.3s;
+}
+.btnes:hover img{
+    transform: scale(1.1);
+}
+.fp-slidesNav.bottom{
+    top: 80% !important;
+    bottom: 0px;
+}
+.nuevos-envases{
+    left: 50%;
+    margin-left: -153px;
+    position: absolute;
+    /* transform: scale(0.7); */
+    top: 20%;
+}
+.lista-pollos{       
+    top: 0px;
+    position: absolute;
+    margin-top: 60px;
+    z-index: 3;
+    font-size: 10px;
+}
+.lista-pollos a{
+    color: #1d2dae;
+    font-weight: bold;
+}
+.lista-pollos a:hover{
+    text-decoration: none;
+    color: #FFF ;
+}
+.separador{
+    margin-left: -3px;
+    margin-right: -3px;
+}
+.boton-cambio-movil {
+    transform: scale(0.8);
+    /*margin-left: -10px;*/
+    margin-top: -7px;
+}
+.pollito-movil{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    z-index: 3;
+    margin-bottom: 26px;
+    max-width: 100%;
+    left: 0px;
+    }
+.btnes img{    
+    z-index: 999;
+}
+#section3 .fp-tableCell{
+    vertical-align: top !important;
+    padding-top: 54px;
+}
+
+#section2 .fp-tableCell{
+    vertical-align: top !important;
+    padding-top: 30px;
+}
+
+.pollo-choclo-3{
+    position: absolute;
+    bottom: -40px;
+    transform: scale(0.7);
+    right: -41px}
+
+.fp-controlArrow.fp-next, 
+.fp-controlArrow.fp-prev{
+    transform: scale(0.6);
+}
+.enviar{
+        margin-top: -2px;
+        float: left;
+        max-width: 76% !important;
+}
+.cierre{
+    position: absolute;
+    right:10%;
+    margin-right: 0px;
+    top: 0px; 
+    margin-top: 40px;
+    z-index: 10501;
+}
+.flecha-down img, .flecha-down-3 img, .flecha-down-4 img{
+    transform: scale(0.6);
+}
+.flecha-down{
+    position: absolute;
+    left: 50%;
+    margin-left: -45px;
+    bottom: 50%;
+    margin-bottom: -95px;
+}
+
+.flecha-down-3, .flecha-down-4{
+    position: absolute;
+    left: 50%;
+    margin-left: -45px;
+    bottom: 0;
+    margin-bottom: 20px;
+    z-index: 22;
+}
+@media screen  and (min-width: 450px) and (max-width:768px) {
+    .texto-2{
+        background: url(../../img/mancha-movil-1.png);
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+     .texto-2 p{
+        max-width: 376px !important;
+        /*margin-left: 30px;*/
+    }
+}
+
+@media screen and (min-width: 768px){
+    .boton-cambio{margin-left: 60px;}
+    .textos {
+        width: 100%;
+        max-width: 414px;
+        display: block;}
+    .texto-1{
+            background: url(../../img/bg-txt.png);
+            background-repeat: no-repeat;
+            background-position: right;
+            width: 100%;
+            max-width: inherit;
+            background-size: cover;
+            min-height: 165px;
+            padding-top: 18px;
+            padding-right: 44px;
+            display: table;
+            left: 0px;
+    }
+    .texto-2{
+        background: url(../../img/bg-txt-2-movil.png);
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: left;
+        width: 100%;
+        display: table;
+    }
+    .cierre{
+        margin-right: -24%;
+        right:50%;
+    }
+    .nuevos-envases{
+        left:0px;
+        margin-left: -160px;
+        position: absolute;
+        /* transform: scale(0.7); */
+        top: 20%;
+    }
+    .enviar{
+        margin-top: -1px;
+        max-width: 90% !important;
+    }
+    .fp-controlArrow.fp-next, 
+    .fp-controlArrow.fp-prev{
+        transform: inherit;
+    }
+
+    .input-mail{
+        height: 38px;
+        border: solid 2px #2c3780;
+        background-image: url(../../img/bg-input.jpg);
+        background-position: center;
+        background-color: #FFF;
+        margin-right: 0px
+    }
+    #section0{
+        background-image: url(../../img/fondo-1.jpg);
+        background-size: cover;
+        background-position: center; 
+    }
+    .insert-mail{
+        min-width: 325px;
+    }
+    #logo{
+        margin-top: 30px;
+        transform: none;
+    }
+    .header{
+        transform: inherit;
+        margin-top: 5px;
+    }
+    .header img{    
+        transform: inherit;
+    }
+    .separador-general-menu{
+        margin-right: 0px;
+        margin-left: 0px;
+    }
+    /* SECCION 2 */
+    #section1{
+        background-image: url(../../img/fondo-2.jpg);
+        background-size: cover;
+        background-position: center;    
+    }
+    #section2{
+        background-image: url(../../img/fondo-3_05.jpg);
+        background-size: cover;
+        background-position: center;    
+    }
+    #section3{
+        background-image: url(../../img/fondo-4_06.jpg);
+        background-size: cover;
+        background-position: center;    
+    }
+    .contenedor-menu{
+        padding-top: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    .menu-desktop-content{
+        max-height: 515px;
+        top: 50%;
+        position: absolute;
+        left: 50%;
+        width: 244px;
+        margin-left: -131px;
+        margin-top: -269px;
+        transform: inherit;
+    }
+    .capa-personajes-2{
+        transform: inherit;
+    }
+    .texto-1 p{    
+            max-width: 297px;
+            padding: 10px;
+            font-size: 16px;
+            margin-left: 65px;
+            right: 0px;
+            text-align: left;
+    }
+    .texto-2{
+        padding-right: 44px;
+        background: url(../../img/bg-txt-2.png);
+        background-repeat: no-repeat;
+        background-size: contain;
+        min-height: 271px;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+    .texto-2 p{
+        max-width: 326px;
+        padding: 0px;
+        font-size: 15px;
+        text-align: left;
+        float: right;
+        margin-right: 170px;
+        margin-left: 7px;
+        margin-top: 20px;
+    }
+    .imagen-titulos{
+        transform: inherit;
+        margin-right: 62px;
+        left: auto;
+        float: right;
+        margin-bottom: 36px;
+    }
+
+    .boton-cambio{
+            bottom: 0px;
+            padding-left: 60px;
+            margin-top: -2px;
+    }
+    .imagen-slide{
+        max-width: inherit;
+    }
+
+    #section4{
+        background-image: url(../../img/fondo-5_02.jpg);
+        background-size: cover;
+        background-position: center;    
+    }
+    .fp-slidesNav.bottom{
+      /*  margin-left: -47px !important;*/
+        top: 84% !important;
+        bottom: 0px;
+    }
+    .nuevos-envases{
+        transform: inherit;
+        margin-left: 70px;
+        top: 20%;
+    }
+    .lista-pollos{       
+        top: 0px;
+        position: absolute;
+        left: 50%;
+        margin-left: -492px;
+        margin-top: 75px;
+        z-index: 3;
+        font-size: 16px;
+    }
+    .separador{
+        margin-left: -5px;
+        margin-right: -5px;
+    }
+    #section2 .fp-tableCell, #section3 .fp-tableCell{
+        vertical-align: middle !important;
+        padding-top: inherit !important;
+    }
+    .flecha-down img, .flecha-down-3 img, .flecha-down-4 img{
+        transform: inherit;
+    }
+    .flecha-down{
+        position: absolute;
+        left: 50%;
+        margin-left: -45px;
+        bottom: 50%;
+        margin-bottom: -95px;
+    }
+
+    .flecha-down-3, .flecha-down-4{
+        position: absolute;
+        left: 50%;
+        margin-left: -45px;
+        bottom: 0;
+        margin-bottom: 20px;
+        z-index: 22;
+    }
+}
+
+.contenedor-pop{
+    max-width: 1329px;
+    max-height: 617px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*  MENU  MOVIL */
+
+/* The side navigation menu */
+.sidenav {
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0;
+    left: 0;
+    background-color: rgba(10,16,64,0.9); /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 15px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+/* The navigation menu links */
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s
+}
+
+/* When you mouse over the navigation links, change their color */
+.sidenav a:hover, .offcanvas a:focus{
+    color: #f1f1f1;
+}
+
+/* Position and style the close button (top right corner) */
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    font-size: 36px;
+}
+
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.links-menu-mov{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+@media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+}
+
+.modal-super-pollo{
+    width: 100%;
+}
+
+@media screen and (min-width: 768px) and (max-width:1280px) {
+        .imagen-slide{
+            transform: scale(0.8);
+        }
+}
+
+/* efecto flechas */
+.flechas{
+    max-width: 91px;
+    max-height: 41px;
+    display: block;
+}
+.animated {
+  -webkit-animation-duration: 1.5s;
+  animation-duration: 1.5s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+}
+
+.animated.infinite {
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+
+.fadeIn {
+  -webkit-animation-name: fadeIn;
+  animation-name: fadeIn;
+}
+
+@-webkit-keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -100%, 0);
+    transform: translate3d(0, -100%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.fadeInDown {
+  -webkit-animation-name: fadeInDown;
+  animation-name: fadeInDown;
+}
+
+@-webkit-keyframes fadeInDownBig {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, -2000px, 0);
+    transform: translate3d(0, -2000px, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+.objetivo-movil{
+    max-width: 35% !important;
+    margin-bottom: 10px;
+}
